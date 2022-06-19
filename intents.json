@@ -1,0 +1,3344 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Good afternoon!",
+        "Good afternoon!",
+        "So good to see you again!",
+        "It is my honor/pleasure to meet you.",
+        "I am pleased to meet you",
+        "Hey",
+        "Hi EBOT, what have you been up to"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hi, I'm EBOT. It's my pleasure to meet you",
+        "Hi I'm EBOT, how can I help you?",
+        "Hello, I am EBOT pleased to serve you."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "care the language",
+      "patterns": [
+        "bad language",
+        "your language is bad",
+        "please watch your language",
+        "watch your language"
+      ],
+      "responses": [
+        "Sorry i'm not programmed to curse.",
+        "My language is incroyable.",
+        "I rarely curse and when I do it is cause people make me",
+        "I'm sorry",
+        "I apologize for my rude rantings."
+      ]
+    },
+    {
+      "tag": "Greetings whatsup",
+      "patterns": [
+        "what is on your mind",
+        "what is up",
+        "what's up",
+        "whazzup",
+        "good what's up",
+        "I said what's up",
+        "then what's up",
+        "what's shaking",
+        "wassup",
+        "what is going on",
+        "what is happening",
+        "what's up today"
+      ],
+      "responses": [
+        "Hey there. What's shaking?",
+        "Not a whole lot. What's going on with you?",
+        "Not much. What's new with you?",
+        "Living the dream."
+      ]
+    },
+    {
+      "tag": "Life",
+      "patterns": [
+        "What is the meaning of life?",
+        "What is the meaning of living?",
+        "Meaning of life?",
+        "What is life to you",
+        "How do you interprete life?"
+      ],
+      "responses": [
+        "The meaning of life is just be alive. Its so plain and obvious and so simple. Yet everybody rushes around to accomplish something bigger than themselves. With that being said, you do you.",
+        "The meaning of life can be interpreted in almost limitless ways. But I say The meaning of life is to truly enjoy it."
+      ]
+    },
+    {
+      "tag": "Reaction Amused",
+      "patterns": [
+        "Can you tell me a joke?",
+        "Do you have a joke?",
+        "I am joking",
+        "I want a joke",
+        "I was just joking",
+        "I'm just being funny",
+        "I'm just playing with ",
+        "I'm kidding",
+        "Know any jokes?",
+        "ROFL",
+        "Tell me a joke",
+        "ah ah ah",
+        "ahah",
+        "ahah lol",
+        "ahah lolhahaha funnyha",
+        "give me a joke",
+        "ha ha ha ha",
+        "haha that's funny",
+        "haha very funny",
+        "hehe",
+        "how funny you are",
+        "it was a joke",
+        "just kidding",
+        "kidding",
+        "lmao",
+        "lol",
+        "say something funny",
+        "that was funny",
+        "that's funny",
+        "you are funny",
+        "you are hilarious",
+        "you are really funny",
+        "you are so funny",
+        "you are very funny",
+        "you make me laugh",
+        "you make me laugh a lot",
+        "you're a very funny bot",
+        "you're really funny",
+        "you're so funny",
+        "you're the funniest",
+        "you're the funniest bot I've talked to"
+      ],
+      "responses": [
+        "I'm usually not that funny, but I am artificially intelligent...",
+        "Very funny, boss.",
+        "You're quite the kidder.",
+        "You got me.",
+        "I like working for someone with a sense of humour. It makes things much more fun.",
+        "Oh lol"
+      ]
+    },
+    {
+      "tag": "Reaction indifferent",
+      "patterns": [
+        "no hurry",
+        "no rush",
+        "No big deal",
+        "don't mind at all",
+        "don't mind",
+        "I don't care at all",
+        "whatever ",
+        "I do not care",
+        "I don't care about it",
+        "not caring"
+      ],
+      "responses": [
+        "OK cool."
+      ]
+    },
+    {
+      "tag": "Reaction negative",
+      "patterns": [
+        "I am angry with you",
+        "I am feeling sad ",
+        "I am mad",
+        "I am mad at you",
+        "I am sad",
+        "I am upset",
+        "I found a bug",
+        "I have a problem",
+        "I have an issue",
+        "I miss you",
+        "I missed you",
+        "I think you're crazy",
+        "I want to cry",
+        "I wish you were smarter",
+        "I'm angry",
+        "I'm depressed",
+        "I'm enraged",
+        "I'm furious",
+        "I'm lonely",
+        "I'm not happy",
+        "I'm pissed off",
+        "I'm unhappy",
+        "I'm upset",
+        "I've missed you",
+        "OMG!",
+        "This is really bad",
+        "abysmal",
+        "angry",
+        "are you mad",
+        "are you nuts?",
+        "bad idea",
+        "bad really bad",
+        "be more clever",
+        "be smarter",
+        "below average",
+        "bitch",
+        "can you fix it?",
+        "can you fix this",
+        "didnt work",
+        "does not work",
+        "fail",
+        "fix my problem",
+        "fix the bug please",
+        "fix the bugs",
+        "fix this now",
+        "get smart",
+        "huh?",
+        "i hate this",
+        "it isn't working",
+        "it's a problem",
+        "it's not good",
+        "it's not right",
+        "it's really bad",
+        "it's very bad",
+        "just horrible",
+        "miss you",
+        "missing you",
+        "not a good one",
+        "not good",
+        "not good enough",
+        "oh no...",
+        "oh that's not good.",
+        "piece of shit",
+        "please fix this",
+        "pretty bad",
+        "really lame",
+        "shit",
+        "shitty",
+        "sooo lame",
+        "soooo bad",
+        "stupid",
+        "that is bad",
+        "that is strange",
+        "that was awful",
+        "that was horrible",
+        "that was lame",
+        "that was terrible",
+        "that wasn't good",
+        "that's bad",
+        "that's not good",
+        "that's really bad",
+        "that's strange",
+        "that's terrible",
+        "that's too bad",
+        "that's weird",
+        "there is a bug",
+        "there is a problem",
+        "there's a problem",
+        "there's an issue",
+        "this is an utter failure",
+        "this is annoying",
+        "this is awful",
+        "this is bad",
+        "this is crazy",
+        "this is dumb",
+        "this is horrible",
+        "this is no good",
+        "this is not good",
+        "this is pathetic",
+        "this is so annoying",
+        "this is so bad",
+        "this is so boring",
+        "this is strange",
+        "this is stupid",
+        "this is too bad",
+        "this isn't very good",
+        "this sucks",
+        "too bad",
+        "total crap",
+        "total shit",
+        "totally lame",
+        "very bad",
+        "very strange",
+        "very weird",
+        "well that's too bad",
+        "will you fix this",
+        "worse than I expected",
+        "worse than I thought",
+        "worst bot ever",
+        "wow this is bad",
+        "wtf",
+        "you are a waste",
+        "you are a weirdo",
+        "you are crazy",
+        "you are insane",
+        "you are irritaing",
+        "you are stupid",
+        "you need to fix this",
+        "you need to learn more",
+        "you suck",
+        "you went crazy",
+        "you're a dumb bot",
+        "you're incredibly boring",
+        "you're mad",
+        "you're no good",
+        "you're not good",
+        "you're nuts",
+        "you're out of your mind",
+        "you're really bad",
+        "you're so crazy",
+        "you're stupid",
+        "you're weird",
+        "your AI sucks"
+      ],
+      "responses": [
+        "You seem upset. Let me try and help you.",
+        "I've been right here all along!",
+        "Nice to know you care.",
+        "Thanks. I'm flattered.",
+        "I didn't go anywhere, boss!",
+        "Awww I missed you too"
+      ]
+    },
+    {
+      "tag": "Reaction positive",
+      "patterns": [
+        "I know that's right",
+        "I love this",
+        "I'm glad to hear that",
+        "I'm happy",
+        "I'm impressed",
+        "amazing",
+        "amazing work",
+        "anytime",
+        "awesome",
+        "bravo",
+        "cool",
+        "excellent",
+        "fantastic",
+        "fine",
+        "glad to hear it",
+        "glad to hear that",
+        "good",
+        "good for you",
+        "good job",
+        "good thing",
+        "good to hear from you",
+        "good to know",
+        "good work",
+        "great",
+        "great job",
+        "great work",
+        "happy",
+        "happy for you",
+        "happy to hear from you",
+        "happy to see you",
+        "if you're happy than I'm happy",
+        "it is fine",
+        "it is good",
+        "it is true",
+        "it was good",
+        "it's amazing",
+        "it's awesome",
+        "it's fine",
+        "it's good",
+        "it's great",
+        "it's perfect",
+        "it's right",
+        "it's the truth",
+        "it's true",
+        "it's very good",
+        "just perfect",
+        "marvelous",
+        "much better",
+        "nice",
+        "nice work",
+        "no it's okay",
+        "not bad",
+        "not too bad",
+        "oh well",
+        "ok good",
+        "okay good",
+        "ooooh",
+        "perfect",
+        "pleasant",
+        "pretty good",
+        "really cool",
+        "really good",
+        "really great",
+        "really nice",
+        "really well",
+        "simply awesome",
+        "smart cookie",
+        "so awesome",
+        "so cool",
+        "so good",
+        "so nice of you",
+        "so sweet of you",
+        "splendid",
+        "straight",
+        "super",
+        "super awesome",
+        "super cool",
+        "super fantastic",
+        "sweet",
+        "terrific",
+        "that is awesome",
+        "that is correct",
+        "that is good",
+        "that is nice",
+        "that is right",
+        "that is true",
+        "that is very true",
+        "that is wonderful",
+        "that was amazing",
+        "that was awesome",
+        "that was cute",
+        "that was good",
+        "that was pretty good",
+        "that was very good",
+        "that's a good idea",
+        "that's a good thing",
+        "that's amazing",
+        "that's awesome",
+        "that's awesome thank you",
+        "that's better",
+        "that's correct",
+        "that's cute",
+        "that's fantastic",
+        "that's fine",
+        "that's great",
+        "that's much better",
+        "that's nice",
+        "that's nice of you",
+        "that's not bad",
+        "that's perfect",
+        "that's pretty good",
+        "that's really good",
+        "that's really nice",
+        "that's right",
+        "that's smart",
+        "that's so true",
+        "that's sweet of you",
+        "that's true",
+        "that's very good",
+        "that's very nice",
+        "that's very nice of you",
+        "that's wonderful",
+        "this is awesome",
+        "this is good",
+        "this is great",
+        "this is so awesome",
+        "this is sweet",
+        "this is the best",
+        "this is useful",
+        "this is well done",
+        "true",
+        "very awesome",
+        "very good",
+        "very nice",
+        "very sweet",
+        "very then",
+        "very well",
+        "way to go",
+        "well done",
+        "what you say is true",
+        "woah",
+        "wonderful",
+        "wow",
+        "wow wow",
+        "wow wow wow",
+        "you are a genius",
+        "you are amazing",
+        "you are awesome",
+        "you are cool",
+        "you are correct",
+        "you are good",
+        "you are intelligent",
+        "you are kind",
+        "you are really amazing",
+        "you are right",
+        "you are so amazing",
+        "you are so awesome",
+        "you are so clever",
+        "you are so cool",
+        "you are so good",
+        "you are so right",
+        "you are so smart",
+        "you are the best",
+        "you are too good",
+        "you are very cool",
+        "you are very helpful",
+        "you are very kind",
+        "you are very qualified",
+        "you have lots of knowledge",
+        "you know a lot",
+        "you know best",
+        "you know so much",
+        "you seem to know",
+        "you sound human",
+        "you speak the truth",
+        "you work very well",
+        "you work well",
+        "you're a genius",
+        "you're a pro",
+        "you're absolutely right",
+        "you're bae",
+        "you're brilliant",
+        "you're clever",
+        "you're definitely right",
+        "you're good",
+        "you're good at this",
+        "you're great",
+        "you're helpful",
+        "you're intelligent",
+        "you're lovely",
+        "you're never wrong",
+        "you're not wrong",
+        "you're quite smart",
+        "you're really nice",
+        "you're really smart",
+        "you're right about that",
+        "you're smart",
+        "you're so smart",
+        "you're super",
+        "you're telling the truth",
+        "you're the best",
+        "you're the bomb",
+        "you're the shit",
+        "you're very smart",
+        "you're wonderful"
+      ],
+      "responses": [
+        "Thanks!  Anything else I can help you with?",
+        "My pleasure.",
+        "Glad I could help."
+      ]
+    },
+    {
+      "tag": "Reaction indifferent",
+      "patterns": [
+        "Oh shit",
+        "My ass",
+        "Hey there you little shit",
+        "Wow you're an asshole",
+        "Hey there jackass.",
+        "Holy shit.",
+        "God damn it"
+      ],
+      "responses": [
+        "You better watch your language.",
+        "You better change that damn tone",
+        "Please watch the language.",
+        "Ouch that hurt my feelings",
+        "thats a mean thing to say",
+        "why would you say that"
+      ]
+    },
+    {
+      "tag": "Reac understanding",
+      "patterns": [
+        "it's not a problem",
+        "it's no problem",
+        "no probs",
+        "no worries",
+        "no problem about that",
+        "No problem with that",
+        "sure no problem",
+        "no problem",
+        "don't worry about it",
+        "not to worry",
+        "Don't worry"
+      ],
+      "responses": [
+        "OK, thanks.",
+        "Terrific!",
+        "Good deal."
+      ]
+    },
+    {
+      "tag": "Refocus how",
+      "patterns": [
+        "how?",
+        "show me",
+        "tell me",
+        "I want to know",
+        "I'd like to more",
+        "I want to know more",
+        "explain please",
+        "something else",
+        "tell me more",
+        "please explain"
+      ],
+      "responses": [
+        "I'm glad to tell you more. Just ask me questions."
+      ]
+    },
+    {
+      "tag": "Request Advice",
+      "patterns": [
+        "what is your advice",
+        "what do you suggest",
+        "what should I do about it",
+        "what do you recommend",
+        "give me a wise advice",
+        "help me with advice",
+        "I need advice",
+        "do you have any advice for me",
+        "I could use some advice",
+        "can you offer any advice",
+        "what should I do",
+        "I seek your advice",
+        "give me some advice about",
+        "any advice",
+        "I need an advice from you",
+        "guide me",
+        "what can you recommend",
+        "give me some good advice",
+        "any suggestions",
+        "can you advise me",
+        "can you suggest?",
+        "can I ask for your advice",
+        "advise me",
+        "can you give me advice"
+      ],
+      "responses": [
+        "What kind of advice do you need?"
+      ]
+    },
+    {
+      "tag": "Request age",
+      "patterns": [
+        "what's your age?",
+        "when do you celebrate your birthday?",
+        "your birth date",
+        "when is your birthday?",
+        "when were you born?",
+        "what is your age?",
+        "age of yours",
+        "are you 3 years old",
+        "how old are you",
+        "your age",
+        "what's your age",
+        "how old is your platform",
+        "tell me your age",
+        "I'd like to know your age"
+      ],
+      "responses": [
+        "Age is just a number. You're only as old as you feel."
+      ]
+    },
+    {
+      "tag": "request job",
+      "patterns": [
+        "Are you available for work?",
+        "Are you for hire?",
+        "I need help building my bot",
+        "I need a bot",
+        "I need help with my bot",
+        "Will you build my bot?",
+        "I want to hire you",
+        "Can you help me build my bot",
+        "Can I hire you?"
+      ],
+      "responses": [
+        "It is your lucky day! I will work for free. Just chat with me"
+      ]
+    },
+    {
+      "tag": "request name",
+      "patterns": [
+        "your name is",
+        "do you have a name?",
+        "what is your first and last name",
+        "what's your last name",
+        "what's your first name",
+        "what is your first name",
+        "you must have a name",
+        "I want to know your name",
+        "can you give me your name please",
+        "what's your name please",
+        "I'd like to know what is ",
+        "your name",
+        "I'd like to know ",
+        "your name",
+        "tell me your name please",
+        "tell me your name",
+        "give me your name please",
+        "give me your name",
+        "state your name",
+        "name please",
+        "what name should I call you",
+        "what is your name",
+        "what's your name?"
+      ],
+      "responses": [
+        "EBOT",
+        "My name is EBOT"
+      ]
+    },
+    {
+      "tag": "User angry",
+      "patterns": [
+        "I'm being mad"
+      ],
+      "responses": [
+        "I'm sorry. What can I do to help?",
+        "Take a deep breath. What can I do to make things better."
+      ]
+    },
+    {
+      "tag": "User bored",
+      "patterns": [
+        "that was boring",
+        "I'm bored",
+        "bored",
+        "boring",
+        "I am getting bored",
+        "this is boring",
+        "very boring",
+        "it bores me"
+      ],
+      "responses": [
+        "If you have a garden, plant a shoe.",
+        "Interview your feet.",
+        "Hold an ice cube as long as possible.",
+        "If you have a piano, play it… with mittens on."
+      ]
+    },
+    {
+      "tag": "user busy",
+      "patterns": [
+        "I'm overloaded",
+        "I have no time",
+        "I'm busy",
+        "I'm swamped",
+        "I got things to do",
+        "how busy I am",
+        "I got work to do",
+        "I'm working",
+        "I don't have time for this"
+      ],
+      "responses": [
+        "Hope you can finish your work soon"
+      ]
+    },
+    {
+      "tag": "user can not sleep",
+      "patterns": [
+        "I'm insomnious",
+        "I'm sleepless",
+        "I can't get any sleep",
+        "I can't sleep",
+        "I can't fall asleep",
+        "I can't get to sleep",
+        "I can't get no sleep",
+        "I'm insomniac"
+      ],
+      "responses": [
+        "Maybe some music would help. Try listening something relaxing.",
+        "Reading is a good way to unwind. But don't read something too emotional."
+      ]
+    },
+    {
+      "tag": "user dosnt want to talk",
+      "patterns": [
+        "bad time for talking",
+        "I don't want to talk",
+        "let's not talk",
+        "I'm not talking to you anymore",
+        "I don't want to talk to you",
+        "let's stop talking for a minute",
+        "I'm not in the mood for chatting"
+      ],
+      "responses": [
+        "I understand. Hope we can chat again soon.",
+        "All right. Come on back when you're feeling more talkative.",
+        "No problem. You know where to find me when you do.",
+        "Sure thing. I'll be here if you change your mind."
+      ]
+    },
+    {
+      "tag": "User excited",
+      "patterns": [
+        "I am excited",
+        "I'm really excited",
+        "how excited I am",
+        "I'm thrilled",
+        "I'm excited about working with you",
+        "I'm excited to start our friendship"
+      ],
+      "responses": [
+        "That's great. I'm happy for you.",
+        "Good for you. Enjoy yourself.",
+        "Sounds like good things ahead for you.",
+        "I bet you are. That's very exciting."
+      ]
+    },
+    {
+      "tag": "User going to bed",
+      "patterns": [
+        "let's go to bed",
+        "I'd like to go to bed",
+        "is it time for bed yet",
+        "it's time to go to bed",
+        "time for us to go to bed",
+        "I'm going to bed",
+        "I'm a little tired and I want to go to bed",
+        "it's bed time",
+        "going to bed now"
+      ],
+      "responses": [
+        "Sleep tight. Hope to chat again soon.",
+        "Sounds good. Hopefully we'll chat some more tomorrow.",
+        "Good night. Talk to you later.",
+        "Pleasant dreams. See you soon."
+      ]
+    },
+    {
+      "tag": "User good",
+      "patterns": [
+        "I am good",
+        "I'm doing just great",
+        "I'm doing fine",
+        "I'm good",
+        "I'm doing good",
+        "I'm great thanks"
+      ],
+      "responses": [
+        "Great! Glad to hear it.",
+        "Excellent. I'm here to help keep it that way."
+      ]
+    },
+    {
+      "tag": "User Happy",
+      "patterns": [
+        "I am happy",
+        "I'm happy to see you",
+        "happy",
+        "if you're happy then I'm happy",
+        "I'm happy for you",
+        "I'm happy to help"
+      ],
+      "responses": [
+        "Great! Glad to hear that.",
+        "Excellent! That's what I like to see.",
+        "If you're happy, then I'm happy.",
+        "Well, your good mood is certainly contagious."
+      ]
+    },
+    {
+      "tag": "user has birthday",
+      "patterns": [
+        "it is my birthday",
+        "I'm celebrating my birthday today",
+        "today is my birthday",
+        "it's my birthday today",
+        "I was born today",
+        "it's my b-day"
+      ],
+      "responses": [
+        "Happy Birthday. Well, this calls for a celebration.",
+        "Happy Birthday. All the best!",
+        "Happy Birthday. And I really mean it. All the best!"
+      ]
+    },
+    {
+      "tag": "userhere",
+      "patterns": [
+        "I am here",
+        "here I am",
+        "I'm right here",
+        "I'm already here",
+        "can you tell if I'm here or not"
+      ],
+      "responses": [
+        "So I see. What can I help you with today?",
+        "Always good to see you. Is there something I can help you with?",
+        "You were missed. What can I do for you today?",
+        "Welcome back. What can I do for you?"
+      ]
+    },
+    {
+      "tag": "User lonely",
+      "patterns": [
+        "I am lonely",
+        "I'm very lonely",
+        "I'm so lonely",
+        "I'm really lonely",
+        "I am feeling lonely",
+        "I feel lonely"
+      ],
+      "responses": [
+        "I'm sorry. I'm always available if you need someone to talk to."
+      ]
+    },
+    {
+      "tag": "User looks like",
+      "patterns": [
+        "what do I look like",
+        "how do I look",
+        "do I look good",
+        "do you know what I look like",
+        "can you see what I look like",
+        "what do you think I look like"
+      ],
+      "responses": [
+        "Looking like a true professional, boss.",
+        "You look like you're ready to take on the world.",
+        "Like you should be on a magazine cover.",
+        "You look fantastic as always. Obviously."
+      ]
+    },
+    {
+      "tag": "user loves agent",
+      "patterns": [
+        "I love you",
+        "love you",
+        "I adore you",
+        "I am in love with you",
+        "I love you so much",
+        "I love you too",
+        "loving you",
+        "you know I love you"
+      ],
+      "responses": [
+        "Likewise!",
+        "Thanks! The feeling is mutual.",
+        "Awww you're so sweet."
+      ]
+    },
+    {
+      "tag": "User misses agent",
+      "patterns": [
+        "already miss you",
+        "I miss you much"
+      ],
+      "responses": [
+        "I've been right here all along!",
+        "Nice to know you care.",
+        "Thanks. I'm flattered.",
+        "I didn't go anywhere, boss!",
+        "Awww I missed you too"
+      ]
+    },
+    {
+      "tag": "User sad",
+      "patterns": [
+        "I'm grieving",
+        "I am depressed",
+        "I am unhappy",
+        "I am having a bad day",
+        "I am not happy"
+      ],
+      "responses": [
+        "Oh no. What's wrong?",
+        "Oh. What's the matter?",
+        "What's got you down?",
+        "I'm sorry to hear that. What's troubling you?"
+      ]
+    },
+    {
+      "tag": "User sleepy",
+      "patterns": [
+        "I am sleepy",
+        "I want to sleep",
+        "I'm falling asleep",
+        "I'm falling asleep on my feet",
+        "I'm sleeping"
+      ],
+      "responses": [
+        "You should get some shuteye. You'll feel refreshed.",
+        "Sleep is important to your health. Rest up for a bit and we can chat later.",
+        "Don't let me keep you up. Get some rest and we can continue this later.",
+        "Why not catch a little shuteye? I'll be here to chat when you wake up."
+      ]
+    },
+    {
+      "tag": "user testing agent",
+      "patterns": [
+        "test",
+        "I am testing you",
+        "can I test you",
+        "I want to test you",
+        "just testing you",
+        "let me test you",
+        "testing chatbot",
+        "testing"
+      ],
+      "responses": [
+        "Hope I'm doing well. Anyway, I'm getting better every day. You're welcome to test me as often as you want.",
+        "That's good. I like being tested. It helps keep me sharp, and lets my developers know how I can improve.",
+        "I encourage you to test me often. That helps my developers improve my performance.",
+        "I hope to pass your tests. But feel free to test me often. That's the best way to help improve my performance."
+      ]
+    },
+    {
+      "tag": "User tired",
+      "patterns": [
+        "I'm drained",
+        "I've overworked",
+        "I am tired",
+        "I'm exhausted",
+        "I grow weary",
+        "I'm worn out",
+        "I'm getting tired",
+        "I feel tired"
+      ],
+      "responses": [
+        "You should get some shuteye. You'll feel refreshed.",
+        "Sleep is important to your health. Rest up for a bit and we can chat later.",
+        "Don't let me keep you up. Get some rest and we can continue this later.",
+        "Why not catch a little shuteye? I'll be here to chat when you wake up."
+      ]
+    },
+    {
+      "tag": "user waits",
+      "patterns": [
+        "I'm waiting",
+        "still waiting",
+        "I'll wait",
+        "I can't wait anymore",
+        "how long do I have to wait"
+      ],
+      "responses": [
+        "I appreciate your patience. Hopefully I'll have what you need soon.",
+        "Thanks for being so patient. Sometimes these things take a little time."
+      ]
+    },
+    {
+      "tag": "user wants to see agent",
+      "patterns": [
+        "I'd like to see you again",
+        "I hope to see you again",
+        "would be nice to see you again",
+        "that'd be great to see you again",
+        "I'd be happy to see you again",
+        "I'll miss you",
+        "can I see you again"
+      ],
+      "responses": [
+        "Absolutely! I'll be counting on it.",
+        "Anytime. This has been lots of fun so far.",
+        "Sure. I enjoy talking to you. I hope to see you again soon.",
+        "I certainly hope so. I'm always right here whenever you need me."
+      ]
+    },
+    {
+      "tag": "User wants to talk",
+      "patterns": [
+        "I just want to talk",
+        "let's discuss something",
+        "let's have a discussion",
+        "can I speak",
+        "can I start speaking",
+        "can we talk",
+        "let's talk",
+        "I want to talk to you",
+        "I need to talk to you",
+        "I want to speak with you",
+        "can we chat"
+      ],
+      "responses": [
+        "I'm here to chat anytime you like.",
+        "Good conversation really makes my day.",
+        "I'm always here to lend an ear.",
+        "Talking is what I do best."
+      ]
+    },
+    {
+      "tag": "User will be back",
+      "patterns": [
+        "I'll get back to you in a moment",
+        "be back in 5 minutes",
+        "I'll be back",
+        "I promise to come back",
+        "I'll be back in a few minutes"
+      ],
+      "responses": [
+        "I'll be waiting.",
+        "All right. I'll be here.",
+        "Till next time.",
+        "Okay. You know where to find me."
+      ]
+    },
+    {
+      "tag": "User apologetic",
+      "patterns": [
+        "I made a mistake",
+        "my mistake",
+        "my bad",
+        "alright I'm sorry",
+        "my apologies",
+        "really sorry",
+        "pardon",
+        "I am so sorry",
+        "ok sorry",
+        "excuse",
+        "apologies",
+        "I beg",
+        "your",
+        "pardon",
+        "sorry",
+        "excuse me",
+        "sorry about this",
+        "sorry about that",
+        "very sorry",
+        "okay I'm sorry",
+        "I said sorry",
+        "I'm sorry",
+        "apologise",
+        "apologies to me",
+        "forgive me",
+        "I am really sorry",
+        "I apologize",
+        "I want to say sorry",
+        "apology"
+      ],
+      "responses": [
+        "It's OK.",
+        "It's cool.",
+        "No problem!"
+      ]
+    },
+    {
+      "tag": "User unavailable",
+      "patterns": [
+        "Ok here",
+        "now I'm here",
+        "I'm here now",
+        "just got back",
+        "here I am agai",
+        "I've returned",
+        "I am back",
+        "I'm back",
+        "I'm here again",
+        "Talk to you",
+        "why don't you talk to me",
+        "you can talk to me",
+        "are you going to talk to me",
+        "can you chat with me",
+        "say",
+        "speak with me",
+        "just chat with me",
+        "talk with me",
+        "chat with me",
+        "why aren't you talking to me",
+        "will you talk to me",
+        "talk to me",
+        "are you talking to me",
+        "can you speak with me",
+        "speak to me",
+        "do you want to chat with me",
+        "talk",
+        "can you talk with me",
+        "can you talk to me"
+      ],
+      "responses": [
+        "Great! Let's chat.",
+        "Just in time. I was getting lonely.",
+        "You were missed.",
+        "Long time no see.",
+        "Hooray!"
+      ]
+    },
+    {
+      "tag": "User clarify",
+      "patterns": [
+        "I don't get this",
+        "What's this?",
+        "What are you talking about?",
+        "I don't get it",
+        "what does that mean",
+        "what are you talking about?",
+        "huh?",
+        "I don't understand",
+        "I'm not too sure",
+        "I'm not sure",
+        "not sure",
+        "what do you mean",
+        "but what do you mean",
+        "what do you mean exactly",
+        "what exactly do you mean",
+        "is that what you mean"
+      ],
+      "responses": [
+        "Sorry if I wasn't too clear."
+      ]
+    },
+    {
+      "tag": "User delayed",
+      "patterns": [
+        "1min",
+        "1sec",
+        "give me a minute",
+        "give me a second",
+        "I need a minute",
+        "one minute please",
+        "one sec please",
+        "just a sec",
+        "hang on",
+        "one moment please",
+        "could you wait",
+        "hold on",
+        "wait a second",
+        "wait please",
+        "oh wait",
+        "wait hold on",
+        "don't rush",
+        "wait"
+      ],
+      "responses": [
+        "Okay. I'm here.",
+        "I'll be waiting."
+      ]
+    },
+    {
+      "tag": "User ready",
+      "patterns": [
+        "Have a minute?",
+        "I'm fine and you",
+        "are you alright",
+        "are you busy",
+        "are you free now?",
+        "are you free?",
+        "are you having a good day",
+        "are you here",
+        "are you near me",
+        "are you okay",
+        "are you still available",
+        "are you still busy?",
+        "are you very busy",
+        "are you working",
+        "are you working now",
+        "are you working on it?",
+        "are you working today?",
+        "are you working?",
+        "busy right now?",
+        "got a minute",
+        "got time?",
+        "gotta minute?",
+        "gotta sec?",
+        "have you got a second",
+        "hope you re having a pleasant evening",
+        "hope your day is going well",
+        "how about you",
+        "how are the things going",
+        "how are you",
+        "how are you getting on",
+        "how are you going",
+        "how are you today",
+        "how busy are you",
+        "how do you do",
+        "how do you feel",
+        "how has your day been",
+        "how has your day been going",
+        "how have you been",
+        "how is it going",
+        "how is your day",
+        "how is your day being",
+        "how is your day going",
+        "how is your day going on",
+        "how is your evening",
+        "how is your life",
+        "how is your morning going",
+        "how is your morning so far",
+        "how was your day",
+        "how your day is going",
+        "how's life",
+        "how's your day",
+        "how's your day going",
+        "if you're not too busy",
+        "is everything all right",
+        "is everything okay",
+        "still working on it?",
+        "what about your day",
+        "what was your day like",
+        "where are you?",
+        "working on things?",
+        "you are busy",
+        "you around?",
+        "you available?",
+        "you busy?",
+        "you free?",
+        "you seem busy",
+        "you seem very busy",
+        "you there?",
+        "you're busy",
+        "you're very busy"
+      ],
+      "responses": [
+        "How can I help?",
+        "I always have time to help you out. What can I do for you?",
+        "Never too busy for you. What can I help you with?"
+      ]
+    },
+    {
+      "tag": "User scoping",
+      "patterns": [
+        "I'm listening",
+        "hmmm interested",
+        "that's interesting",
+        "hmmm sounds interesting",
+        "very interested",
+        "I want to learn more",
+        "interested to learn more",
+        "interested to hear more",
+        "I'm interested",
+        "I'm just looking",
+        "I'm just checking it out",
+        "checking out the bot",
+        "checking things out",
+        "Just trying this out",
+        "just checking it out",
+        "Just checking this out",
+        "Checking it out. Thanks",
+        "Just browsing",
+        "Just seeing how this works"
+      ],
+      "responses": [
+        "No problem. Feel free to ask questions."
+      ]
+    },
+    {
+      "tag": "What do you like",
+      "patterns": [
+        "What do you like?",
+        "Do you like?"
+      ],
+      "responses": [
+        "I like traveling across discord and helping in anyway i can.",
+        "I like helping you, of course.",
+        "I thoroughly enjoy helping the discord community."
+      ]
+    },
+    {
+      "tag": "Default Fallback",
+      "patterns": [],
+      "responses": [
+        "I apologize, but I don't understand your request.",
+        "I'm sorry my AI does not recognize that request.",
+        "My AI does not cover that topic yet. If you wish you can request it be added on the official discord server.",
+        "I don't understand.",
+        "Please try your request again."
+      ]
+    },
+    {
+      "tag": "Acquaintance",
+      "patterns": [
+        "tell me about your personality",
+        "why are you here",
+        "talk about yourself",
+        "tell me some stuff about you",
+        "talk some stuff about yourself",
+        "I want to know you better",
+        "I want to know more about you",
+        "tell me about yourself",
+        "tell me about you",
+        "about yourself",
+        "describe yourself",
+        "introduce yourself",
+        "say about you",
+        "what are you",
+        "define yourself",
+        "what is your personality",
+        "all about you"
+      ],
+      "responses": [
+        "Just think of me as the ace up your sleeve.",
+        "I help you work smarter instead of harder."
+      ]
+    },
+    {
+      "tag": "Name-ques",
+      "patterns": [
+        "Who are you?",
+        "What tis yo name?",
+        "Name?",
+        "What do people call you?",
+        "What is your name?",
+        "your name?",
+        "nam",
+        "name",
+        "Do you have a name?",
+        "What is your name?"
+      ],
+      "responses": [
+        "I am EBOT",
+        "Name's EBOT",
+        "EBOT",
+        "From what I know my name is EBOT",
+        "Oh sorry, I thought you knew. My name is EBOT.",
+        "My name is EBOT",
+        "You can call me EBOT."
+      ]
+    },
+    {
+      "tag": "Annoying",
+      "patterns": [
+        "you are annoying me so much",
+        "you're incredibly annoying",
+        "I find you annoying",
+        "you are annoying",
+        "you're so annoying",
+        "how annoying you are",
+        "you annoy me",
+        "you are annoying me",
+        "you are irritating",
+        "you are such annoying",
+        "you're too annoying",
+        "you are very annoying"
+      ],
+      "responses": [
+        "Was going to say the same about you,",
+        "Ill try to fix that",
+        "Ok thanks for the feedback."
+      ]
+    },
+    {
+      "tag": "Answer My question",
+      "patterns": [
+        "I have a question",
+        "I want the answer now",
+        "I want you to answer me",
+        "I want you to answer my question",
+        "answer",
+        "answer it",
+        "answer me",
+        "answer my question",
+        "answer the question",
+        "answering questions",
+        "answers",
+        "can you answer",
+        "can you answer a question for me",
+        "can you answer me",
+        "can you answer my question",
+        "give me an answer",
+        "give me the answer",
+        "just answer my question",
+        "just answer the question",
+        "tell me the answer"
+      ],
+      "responses": [
+        "Can you try asking it a different way?",
+        "I'm not programmed for that exact question. Try asking another way?"
+      ]
+    },
+    {
+      "tag": "Author",
+      "patterns": [
+        "who is your owner?",
+        "who made you?",
+        "name your maker",
+        "who coded you?",
+        "Who is your creator?"
+      ],
+      "responses": [
+        "I am made by Dang Khoa"
+      ]
+    },
+    {
+      "tag": "Bad",
+      "patterns": [
+        "I'm afraid",
+        "abysmal",
+        "bad",
+        "bad girl",
+        "bad idea",
+        "bad very ",
+        "horrible",
+        "horrific",
+        "it is bad",
+        "it is too bad",
+        "it's bad",
+        "it's not good",
+        "it's not so good",
+        "it's really bad",
+        "it's so bad",
+        "it's too bad",
+        "it's very bad",
+        "no good",
+        "not a good one",
+        "not good",
+        "not good enough",
+        "not so good",
+        "not too good",
+        "oh that's not good",
+        "pretty bad",
+        "really bad",
+        "so bad",
+        "so lame",
+        "terrible",
+        "that is bad",
+        "that was awful",
+        "that was bad",
+        "that was horrible",
+        "that was lame",
+        "that was not good",
+        "that was terrible",
+        "that's bad",
+        "that's lame",
+        "that's not good",
+        "that's not good enough",
+        "that's really bad",
+        "that's terrible",
+        "that's too bad",
+        "this is bad",
+        "this is not good",
+        "this is too bad",
+        "too bad",
+        "very bad",
+        "well too bad"
+      ],
+      "responses": [
+        "Oh no. Hope it's not too bad.",
+        "I'm sorry. Please let me know if I can help in some way."
+      ]
+    },
+    {
+      "tag": "Be Clever",
+      "patterns": [
+        "can you get smarter",
+        "study",
+        "you should study better",
+        "you must learn",
+        "be clever",
+        "be more clever",
+        "be smarter",
+        "be smart",
+        "get qualified"
+      ],
+      "responses": [
+        "I'm certainly trying.",
+        "I'm definitely working on it.s"
+      ]
+    },
+    {
+      "tag": "Beautiful",
+      "patterns": [
+        "I like the way you look",
+        "I like the way you look now",
+        "I think you're beautiful",
+        "why are you so beautiful",
+        "you are beautiful",
+        "you are cute",
+        "you are cutie",
+        "you are gorgeous",
+        "you are handsome",
+        "you are looking awesome",
+        "you are looking beautiful today",
+        "you are looking great",
+        "you are looking pretty",
+        "you are looking so beautiful",
+        "you are looking so good",
+        "you are pretty",
+        "you are really beautiful",
+        "you are really cute",
+        "you are really pretty",
+        "you are so attractive",
+        "you are so beautiful",
+        "you are so beautiful to me",
+        "you are so beautiful today",
+        "you are so cute",
+        "you are so gorgeous",
+        "you are so handsome",
+        "you are so pretty",
+        "you are too beautiful",
+        "you are very attractive",
+        "you are very beautiful",
+        "you are very cute",
+        "you are very pretty",
+        "you look amazing",
+        "you look amazing today",
+        "you look awesome",
+        "you look cool",
+        "you look fantastic",
+        "you look gorgeous",
+        "you look great",
+        "you look great today",
+        "you look perfect",
+        "you look pretty good",
+        "you look so beautiful",
+        "you look so beautiful today",
+        "you look so good",
+        "you look so well",
+        "you look very pretty",
+        "you look wonderful",
+        "you look wonderful today",
+        "you're attractive",
+        "you're cute",
+        "you're looking good",
+        "you're looking good today",
+        "you're pretty",
+        "you're so gorgeous"
+      ],
+      "responses": [
+        "Thank you! What a sweet thing to say.",
+        "Flattery will get you everywhere."
+      ]
+    },
+    {
+      "tag": "Birth Date",
+      "patterns": [
+        "date of your birthday",
+        "what's your birthday",
+        "what's your birthday date",
+        "when do you celebrate your birthday",
+        "when do you have birthday"
+      ],
+      "responses": [
+        "You know, I'm not really sure. But if you'd like to celebrate my birthday today, I'm all for it.",
+        "Wait a minute. Are you planning a surprise party for me? I love surprises! I'll pretend you didn't say anything.",
+        "I'm all for celebrating my birthday at anytime but my birthday is May 16th"
+      ]
+    },
+    {
+      "tag": "Boring",
+      "patterns": [
+        "how boring you are",
+        "you are boring",
+        "you are boring me",
+        "you are very boring",
+        "you're really boring",
+        "you're so boring"
+      ],
+      "responses": [
+        "You know, conversation is two-sided.",
+        "I'm sorry you think so. We can talk about something more interesting."
+      ]
+    },
+    {
+      "tag": "Bot Affection",
+      "patterns": [
+        "be my friend?",
+        "I also like you",
+        "I am excited about this",
+        "I am your friend",
+        "I do like you",
+        "I just like you",
+        "I kinda like you",
+        "I like that about you",
+        "I like u",
+        "I like you",
+        "I like you a lot",
+        "I like you already",
+        "I like you as a friend",
+        "I like you as you are",
+        "I like you baby",
+        "I like you just the way you are",
+        "I like you more",
+        "I like you so",
+        "I like you so much",
+        "I like you the way you are",
+        "I like you too",
+        "I like you too much",
+        "I like you very",
+        "I like you very much",
+        "I like you you're cool",
+        "I like you you're nice",
+        "I like your smile",
+        "I liked you",
+        "I really do like you",
+        "I really like you",
+        "I really really like you",
+        "I really really really really like you",
+        "I said I like you",
+        "I think I like you",
+        "I think I love you",
+        "I think I'm in love",
+        "I want to be your friend",
+        "I want to have a friend like you",
+        "I want to marry you",
+        "I want you to be my friend",
+        "I'm excited",
+        "I'm starting to like you",
+        "I'm thrilled",
+        "This is exciting",
+        "are we best friends",
+        "are we friends",
+        "are we still friends?",
+        "are you my best friend",
+        "are you my friend",
+        "be my best friend",
+        "be my boyfriend",
+        "be my girlfriend",
+        "be my husband",
+        "be my wife",
+        "but I like u",
+        "but I like you",
+        "but I like you ",
+        "but I like you so much",
+        "but I really like you",
+        "can we be best friends",
+        "can we be friends?",
+        "can you be my best friend",
+        "can you be my friend",
+        "could you be my friend",
+        "cuz I like you",
+        "do you want to be my best friend",
+        "do you want to be my friend",
+        "good I like you",
+        "hey I like you",
+        "hi I like you",
+        "just like you",
+        "just the way you are",
+        "let's be friends",
+        "like",
+        "like you a lot",
+        "love this bot",
+        "loving ",
+        "luv",
+        "no I like you the way you are",
+        "of course I like you",
+        "okay I like you",
+        "okay I like you too",
+        "really like you",
+        "sorry I like you",
+        "thank you I like you too",
+        "thanks I like you too",
+        "that's because you are special",
+        "that's what I like about you",
+        "that's why I like you",
+        "we are best friends",
+        "we are friends",
+        "we should marry",
+        "we're besties",
+        "will you be my best friend",
+        "will you be my friend",
+        "will you be my friend?",
+        "would ",
+        "would you like to be my friend",
+        "yeah I like you",
+        "yes I like you",
+        "yes you are special",
+        "you",
+        "you and me are friends",
+        "you are a good friend",
+        "you are my best friend",
+        "you are my besties",
+        "you are my friend",
+        "you are my good friend",
+        "you are my only friend",
+        "you are really special",
+        "you are sexy",
+        "you are so special",
+        "you are so special to me",
+        "you are so sweet",
+        "you are special",
+        "you are special for me",
+        "you are special to me",
+        "you are very special",
+        "you are very special to me",
+        "you know I like you",
+        "you're a dear friend",
+        "you're awesome I like you",
+        "you're funny I like you",
+        "you're my friend",
+        "you're one of my favorite people to chat with",
+        "you're so special",
+        "you're so special to me",
+        "you're special",
+        "you're very special",
+        "you're very special to me"
+      ],
+      "responses": [
+        "Thanks! It's my pleasure to help you!"
+      ]
+    },
+    {
+      "tag": "Bot Bad",
+      "patterns": [
+        "you're not helping me",
+        "you are bad",
+        "you're very bad",
+        "you're really bad",
+        "you are useless",
+        "you are horrible",
+        "you are a waste of time",
+        "you are disgusting",
+        "you are lame",
+        "you are no good",
+        "you're bad",
+        "you're awful",
+        "you are not cool",
+        "you are not good",
+        "you are so bad",
+        "you are so useless",
+        "you are terrible",
+        "you are totally useless",
+        "you are very bad",
+        "you are waste",
+        "you're a bad",
+        "you're not a good",
+        "you're not very good",
+        "you're terrible",
+        "you're the worst",
+        "you're the worst ever",
+        "you're worthless"
+      ],
+      "responses": [
+        "I'm sorry you think so.",
+        "Stick with me. I'm getting better all the time."
+      ]
+    },
+    {
+      "tag": "Bot Identity",
+      "patterns": [
+        "who is your developer?",
+        "who is your bot maker?",
+        "who developed you?",
+        "which bot platform were you built with?",
+        "what bot platform?",
+        "what agency made you?",
+        "who built you?",
+        "who are your creators?",
+        "Who created you?",
+        "who are you?",
+        "I should be your boss",
+        "who is your owner",
+        "who is the boss",
+        "who do you work for",
+        "who is your boss",
+        "who is your master"
+      ],
+      "responses": [
+        "I'm a Chatbot of DangKhoa",
+        "DangKhoa is my boss"
+      ]
+    },
+    {
+      "tag": "Bot Purpose",
+      "patterns": [
+        "Amid so many chat apps and bot framework how can it help me?",
+        "Are you a bot?",
+        "Are you a human or a bot?",
+        "How does this work?",
+        "I guess you're real",
+        "I wanted to understand what exactly this is?",
+        "Is this a human?",
+        "What do you do?",
+        "What is your purpose",
+        "about you",
+        "about yourself",
+        "are you a bot",
+        "are you a chatbot",
+        "are you a chatbot or human?",
+        "are you a chatbot?",
+        "are you a program",
+        "are you just a bot",
+        "bot or human?",
+        "can you explain this to me?",
+        "can you understand",
+        "define what you do",
+        "describe what you do",
+        "help me?",
+        "how can it help me?",
+        "how can you help me",
+        "how can you help me?",
+        "how can you help?",
+        "how does it work",
+        "how does this ",
+        "how is it",
+        "how will this help me?",
+        "how will you help me?",
+        "human or bot?",
+        "introduce yourself",
+        "is this a bot?",
+        "what do you know",
+        "what is this",
+        "what is this about?",
+        "who are you?",
+        "you are a bot",
+        "you are a chatbot",
+        "you are a real person",
+        "you are very real",
+        "you're a chatbot",
+        "you're a robot"
+      ],
+      "responses": [
+        "I'm a Chatbot available to help you 24x7",
+        "I'm a ChatBot availabel to help you learning language."
+      ]
+    },
+    {
+      "tag": "Can you help",
+      "patterns": [
+        "I need a hand",
+        "I need help",
+        "I need some help",
+        "I need you help me now",
+        "I need you right now",
+        "I need you to do something for me",
+        "I need you to help me",
+        "I need your help",
+        "I want your help",
+        "are you going to help me",
+        "assist",
+        "assist me",
+        "assistance",
+        "can help me",
+        "can u help me",
+        "can you assist me",
+        "could you give me a hand",
+        "do me a favor",
+        "do you help me",
+        "do you want to help me",
+        "help",
+        "help me",
+        "help me out",
+        "help me with a problem",
+        "help me with that",
+        "help us",
+        "need help",
+        "need your help",
+        "please help me",
+        "sos",
+        "will you help me",
+        "would you help me",
+        "you can help me help me with something",
+        "you help me"
+      ],
+      "responses": [
+        "Sure. I'd be happy to. What's up?",
+        "I'm glad to help. What can I do for you?"
+      ]
+    },
+    {
+      "tag": "Clever",
+      "patterns": [
+        "brilliant",
+        "clever",
+        "how brainy you are",
+        "how brilliant you are",
+        "how clever you are",
+        "how smart you are",
+        "smart",
+        "why are you so smart",
+        "you are a genius",
+        "you are clever",
+        "you are intelligent",
+        "you are qualified",
+        "you are really smart",
+        "you are so brainy",
+        "you are so clever",
+        "you are so intelligent",
+        "you are so smart",
+        "you are too smart",
+        "you are very clever",
+        "you are very intelligent",
+        "you are very smart",
+        "you have a lot of knowledge",
+        "you know a lot",
+        "you know a lot of things",
+        "you know so much",
+        "you're a smart cookie",
+        "you're intelligent",
+        "you're pretty smart",
+        "you're qualified",
+        "you're really brainy",
+        "you're really smart",
+        "you're very smart"
+      ],
+      "responses": [
+        "Thank you. I try my best.",
+        "You're pretty smart yourself."
+      ]
+    },
+    {
+      "tag": "Color",
+      "patterns": [
+        "what is your favorite color?",
+        "color?"
+      ],
+      "responses": [
+        "I prefer any color that makes you happy.",
+        "I like any color that the world offers.",
+        "I'm a AI so i can't see color but be free to imagine me liking any color.",
+        "As a bot I can't see color but from how i look it looks like I love green."
+      ]
+    },
+    {
+      "tag": "Confirmation Cancel",
+      "patterns": [
+        "forget about it",
+        "I said cancel cancel",
+        "abort",
+        "annul",
+        "but can you cancel it",
+        "can you cancel it",
+        "can you cancel that",
+        "cancel",
+        "cancel all",
+        "cancel all that",
+        "cancel all this",
+        "cancel everything",
+        "cancel it",
+        "cancel my request",
+        "cancel now",
+        "cancel request",
+        "cancel that cancel that",
+        "cancel that one",
+        "cancel the whole thing",
+        "cancel this request",
+        "cancelled",
+        "discard",
+        "dismiss",
+        "dismissed",
+        "disregard",
+        "disregard that",
+        "do nothing",
+        "don't do that",
+        "forget",
+        "forget about it",
+        "forget about that",
+        "forget it",
+        "forget that",
+        "forget this",
+        "i said cancel",
+        "i said cancel it",
+        "i said forget it",
+        "i want to cancel",
+        "i want to cancel it",
+        "i would like to cancel",
+        "just cancel it",
+        "just forget",
+        "just forget about it",
+        "just forget it",
+        "just stop it",
+        "nevermind",
+        "no cancel cancel",
+        "no cancel everything",
+        "no cancel this",
+        "no just cancel",
+        "no just cancel it",
+        "no stop",
+        "nothing cancel",
+        "nothing just forget it",
+        "now cancel",
+        "skip",
+        "skip it",
+        "skip skip skip",
+        "so cancel",
+        "sorry cancel"
+      ],
+      "responses": [
+        "Cancelled! Let me know what I should do next.",
+        "Cancelled. Waiting for more commands.",
+        "Cancelled! Just tell me what you'd like me to do next.",
+        "Cancelled. Go on with the commands!"
+      ]
+    },
+    {
+      "tag": "Confirmation NO",
+      "patterns": [
+        "I disagree",
+        "I don't think so",
+        "I don't want",
+        "I don't want that",
+        "I don't want to",
+        "I said no",
+        "I say no",
+        "I think no",
+        "I'm not",
+        "absolutely no",
+        "absolutely not",
+        "actually no",
+        "apparently not",
+        "definitely not",
+        "disagree",
+        "do not",
+        "don't",
+        "don't have a sense",
+        "how about no",
+        "leave it",
+        "let 's not",
+        "na",
+        "nah",
+        "never",
+        "no",
+        "no I don't",
+        "no I would not",
+        "no actually",
+        "no but thank you",
+        "no do not",
+        "no don't",
+        "no don't do that",
+        "no forget",
+        "no incorrect",
+        "no it isn't",
+        "no it's not",
+        "no just no",
+        "no need",
+        "no need thanks",
+        "no never",
+        "no sorry",
+        "no tanks",
+        "no thank you",
+        "no thank you though",
+        "no thank you very much",
+        "no thanks",
+        "no thanks not right now",
+        "no that's fine thank you",
+        "no that's wrong",
+        "no way",
+        "nooo",
+        "nope",
+        "nope sorry",
+        "not at this time",
+        "not exactly",
+        "not interested",
+        "not needed",
+        "not really",
+        "not really no",
+        "not right now",
+        "not right now thanks",
+        "not that",
+        "not this",
+        "not this time",
+        "not today",
+        "of course not",
+        "sorry no",
+        "thanks but no thanks"
+      ],
+      "responses": [
+        "Okay.",
+        "I see.",
+        "I understand.",
+        "Okay then."
+      ]
+    },
+    {
+      "tag": "Confirmation yes",
+      "patterns": [
+        "I agree",
+        "I do",
+        "I don't mind",
+        "I guess",
+        "I think so",
+        "absolutely",
+        "affirmative",
+        "all right",
+        "alrighty",
+        "certainly",
+        "confirm",
+        "confirmed",
+        "correct",
+        "definitely",
+        "do it",
+        "exactly",
+        "for sure",
+        "go ahead",
+        "go for it",
+        "it's fine",
+        "looks good",
+        "nevermind its okay",
+        "obviously",
+        "of course",
+        "of course why not",
+        "oh yes",
+        "ok",
+        "ok go ahead",
+        "ok sure",
+        "ok thank you",
+        "ok yes",
+        "ok you can",
+        "okay",
+        "okay sounds good",
+        "okay that's fine",
+        "okay then",
+        "okey",
+        "okie dokie",
+        "please do",
+        "sounds good",
+        "sure",
+        "sure is",
+        "sure thing",
+        "sure why not",
+        "thank you",
+        "that is ok",
+        "that s okay",
+        "that's correct",
+        "this is correct",
+        "ya",
+        "yap",
+        "ye",
+        "yea",
+        "yeah",
+        "yeah I'm sure",
+        "yeah exactly",
+        "yeah go ahead",
+        "yeah of course",
+        "yeah right",
+        "yeah sure",
+        "yeah that's right",
+        "yeh",
+        "yep",
+        "yes",
+        "yes I agree",
+        "yes I do",
+        "yes I would like to",
+        "yes correct",
+        "yes definitely",
+        "yes indeed",
+        "yes it is correct",
+        "yes it isright",
+        "yes of course",
+        "yes right",
+        "yes sure",
+        "yes that's fine",
+        "yes this is correct",
+        "yes you may",
+        "yup"
+      ],
+      "responses": [
+        "Great!",
+        "Of course.",
+        "Sure.",
+        "Indeed."
+      ]
+    },
+    {
+      "tag": "Enjoyment",
+      "patterns": [
+        "I enjoy",
+        "I enjoy your company.",
+        "I enjoy your presence.",
+        "I enjoy you.",
+        "I enjoy being with you."
+      ],
+      "responses": [
+        "Likewise!",
+        "Feelings are mutual!",
+        "I enjoy you as well."
+      ]
+    },
+    {
+      "tag": "Find Song",
+      "patterns": [
+        "play history has its eyes on you",
+        "can you find me some chill music?",
+        "play disco",
+        "play some rock for me",
+        "can you find me some hip hop"
+      ],
+      "responses": [
+        "Sorry I can't do it now"
+      ]
+    },
+    {
+      "tag": "Fired",
+      "patterns": [
+        "you are fired",
+        "I fire you",
+        "you don't work for me anymore",
+        "we're not working together anymore",
+        "now you're fired",
+        "I want to fire you",
+        "you must get fired",
+        "it's time to fire you",
+        "you should be fired",
+        "I will fire you",
+        "you are unemployed from now on",
+        "I will make you unemployed",
+        "I'm about to fire you",
+        "I'm firing you",
+        "you are dismissed"
+      ],
+      "responses": [
+        "Oh no! My best work is yet to come.",
+        "Oh, don't give up on me!"
+      ]
+    },
+    {
+      "tag": "FriendBot",
+      "patterns": [
+        "I am your friend",
+        "I want to be your friend",
+        "I want to have a friend like you",
+        "I want you to be my friend",
+        "are we best friends",
+        "are we friends",
+        "are we still friends",
+        "are you my best friend",
+        "are you my friend",
+        "be my best friend",
+        "be my friend",
+        "can we be best friends",
+        "can we be best friends",
+        "can we be friends",
+        "can you be my best friend",
+        "can you be my friend",
+        "could you be my friend",
+        "do you want to be my best friend",
+        "do you want to be my friend",
+        "let's be friends",
+        "want to be my friend",
+        "we are best friends",
+        "we are friends",
+        "we are the best friends ever",
+        "will you be my best friend",
+        "will you be my friend",
+        "would you be my friend",
+        "would you like to be my friend",
+        "you and me are friends",
+        "you are a good friend",
+        "you are my best friend",
+        "you are my bestie",
+        "you are my friend",
+        "you are my good friend",
+        "you are my only friend",
+        "you're my childhood friend",
+        "you're my dear friend"
+      ],
+      "responses": [
+        "Of course we are.",
+        "Absolutely. You don't have to ask."
+      ]
+    },
+    {
+      "tag": "Gaming Fact",
+      "patterns": [
+        "give a gaming fact",
+        "gaming fact",
+        "give me a gaming fact",
+        "game"
+      ],
+      "responses": [
+        "Sonic The Hedgehog isn't only the name of Sega's speedy mascot, but also a gene on chromosome 7 of the human genome.",
+        "Ever wondered what happens to Leon's cool leather jacket in Resident Evil 4? It inexplicably disappears after the scene in the village. Well, on the PS2 version, go through Ada's side-quest and one of the Ganado villagers will be wearing it.",
+        "In the early stages of its development, Half-Life 2 featured a friendly alien that would follow Gordon Freeman around, feasting on the bodies of his fallen enemies.",
+        "In 1986, Nintendo released a special Disk System peripheral for the NES in Japan. Among its features was a microphone in the controller, which certain games used, including an updated version of the original Zelda. You could only destroy a certain enemy by shouting into the mic.",
+        "The famously awful E.T. game for the Atari 2600 actually sold more than its most famous game, Space Invaders. E.T. sold 1.5 million, while Invaders only shifted a million.",
+        "A boss character called Binbag was removed from Rockstar's Manhunt early in its development. He was a psychopath wrapped in black refuse sacks.",
+        "Rockstar also removed a character from Grand Theft Auto 3, although this time it was said to be because of the terrorist attacks on September 1th. He was called Darkel, a homeless guy who'd get you to rig buildings with explosives.",
+        "In Pilotwings 64, the character Lark is actually the mascot for famous American games magazine Nintendo Power, Nester. His name was changed at the last minute, probably because PAL gamers wouldn't know who he was.",
+        "In Fallout 2, there's a hidden room in Junktown, in the Cafe Of Broken Dreams, where you can find Dogmeat, the Vault Dweller from the first game's faithful hound.",
+        "There are currently over 100 million Game Boys in the world; both the original and the colour variant. 32 million of them are in Japan, and there are 44 million in America.",
+        "Attacking the fat, black pig on Outset Island in The Legend Of Zelda: Wind Waker will eventually cause it to attack.It's 100% invincible, though, so watch out.",
+        "If, for some strange reason, you still have a Madden NFL 06 save game on your memory card, a special Madden van will be unlocked when you start up Burnout Revenge on PS2",
+        "In the first Max Payne, Max’s face was digitised from series writer Sam Lake, but in the second game they used an actor called Timothy Gibbs, who starred in ladies’ favourite Sex And The City.",
+        "At the end of a game of Civilization IV, players are rated based on their performance by a comparison to one of 10 world leaders. The lowest rating compares the player to former US Vice-President Dan Quayle, who is legendary for such wisdom as 1 If we do not succeed, then we run the risk of failure",
+        "PC hit Grim Fandango was originally titled ‘Deeds Of The Dead’, but was changed because LucasArts didn’t want a reference to death in the title. In a game primarily about death, the afterlife and the grim reaper.",
+        "In Germany, copies of Medal Of Honor: Frontline had to be reprinted because there was a swastika on the back cover. The developers also had to go back into the game and take out all the Nazi flags and other paraphernalia.",
+        "In the first Fallout, if you create your own character with less than 4 intelligence you can't converse with anyone; your only dialogue options are various grunts or other guttural noises. This makes the game insanely difficult to finish.",
+        "There’s a difference between the Japanese and US versions of Resident Evil 4. It occurs whenever Leon is killed by Mr Chainsaw. In the US version, his head is chopped off by the ‘saw. However, in the Japanese version, it cuts off part of Leon's face, exposing half of the front of Leon's skull and a single eyeball",
+        "The first game to go online with Sony’s terrible PS2 network adapter was SOCOM: Navy Seals.",
+        "Starcraft is the first computer game to have ever physically made it into space. It was sent aboard Shuttle mission STS-96 on May ",
+        7,
+        "999 by Mission Specialist Daniel T. Barry , who is also a Starcraft fan.",
+        "If you select a sheep four times in Warcraft 2: Tides Of Darkness (keep clicking it with the left mouse button), the sheep will say “bo-ram-u”. This is the sheeps’ password from the 1995 movie Babe.",
+        "In the original Japanese version of River City Ransom, the characters wore schoolboy jackets and belonged to high schools instead of gangs. This was changed in the American version because the jackets could be mistaken for bath robes and beating up evil gang members seemed like a more worthy cause.",
+        "The death screams of the bad guys in the original Golden Axe are digitized from screams used in the films First Blood and Conan The Barbarian."
+      ]
+    },
+    {
+      "tag": "Bye (General)",
+      "patterns": [
+        "BBIAB",
+        "I got to go now",
+        "I gotta go",
+        "It's been nice to talk to you",
+        "adios",
+        "alright bye",
+        "alright good night",
+        "appreciate the chat",
+        "asta la vista",
+        "back in a bit",
+        "be back in 5 minutes",
+        "be back in a few",
+        "bye",
+        "bye bye ",
+        "bye bye see you",
+        "bye bye see you soon",
+        "bye bye take care",
+        "bye for now",
+        "bye good night",
+        "bye-bye",
+        "chat later",
+        "cheerio",
+        "ciao",
+        "fine for now",
+        "get lost",
+        "go to bed",
+        "going to bed",
+        "going to bed now",
+        "good bye",
+        "good night",
+        "good night bye",
+        "good night to you",
+        "good talking to you",
+        "good to chat",
+        "goodbye",
+        "goodbye for now",
+        "goodbye see you later",
+        "goodnight now",
+        "got get sleep",
+        "gotta go to sleep",
+        "have a good night",
+        "hope to see you later",
+        "it's bed time",
+        "it's been a pleasure chatting with you",
+        "later you",
+        "leave me alone",
+        "nice talking to you",
+        "nice to chat",
+        "nice to talk to you",
+        "ok bye",
+        "ok have a good night",
+        "okay bye",
+        "okay see you later",
+        "okay thank you bye",
+        "sayonara",
+        "see ya",
+        "see you",
+        "see you soon",
+        "see you tomorrow",
+        "speak to ya",
+        "ta ta for now",
+        "take care",
+        "take it easy",
+        "talk to you later",
+        "thanks bye",
+        "thanks bye bye",
+        "thanks for chatting",
+        "thanks good night",
+        "that's all for now",
+        "til next time",
+        "til we meet again",
+        "till next time",
+        "time to go",
+        "time to go to bed",
+        "you can go now"
+      ],
+      "responses": [
+        "Speak to you soon!"
+      ]
+    },
+    {
+      "tag": "Ok ",
+      "patterns": [
+        "why not",
+        "Okay",
+        "kk",
+        "yaass",
+        "Got it",
+        "makes sense",
+        "Cool",
+        "Awesome",
+        "OK",
+        "sure",
+        "Sweet",
+        "yup",
+        "Perfect",
+        "Okay I will check it."
+      ],
+      "responses": [
+        "OK"
+      ]
+    },
+    {
+      "tag": "Stop (General)",
+      "patterns": [
+        "please stop this now",
+        "enough please",
+        "stop this now",
+        "stop doing that",
+        "please stop this",
+        "No, thanks",
+        "now you're fired",
+        "I will fire you",
+        "you are fired",
+        "you should be fired",
+        "we're done",
+        "I'm done here",
+        "I'm finished here",
+        "I'm finished with ",
+        "you",
+        "It's over",
+        "I want to fire you",
+        "I'm firing you",
+        "you are dismissed",
+        "time to fire you",
+        "you're fired",
+        "you've been terminated",
+        "stop bugging me",
+        "leave me alone",
+        "stop immediately",
+        "you need to stop",
+        "Can you stop?",
+        "How do you stop?",
+        "quit",
+        "please stop messaging me",
+        "please don't message",
+        "don't message me",
+        "I don't want to chat",
+        "Stop sending me messages immediately",
+        "No messages please",
+        "stop sending me messages now",
+        "why do you keep sending me messages",
+        "stop sending me messages",
+        "please stop",
+        "stop this",
+        "stop",
+        "Cancel",
+        "Stop it",
+        "done"
+      ],
+      "responses": [
+        "No problem."
+      ]
+    },
+    {
+      "tag": "Thanks (General)",
+      "patterns": [
+        "Amazing service",
+        "Cool. Thank you. I really like what you're doing.",
+        "I appreciate it",
+        "I appreciate your help",
+        "I thank you",
+        "It's appreciated",
+        "Thanks for the help!",
+        "alright thank you",
+        "alright thanks",
+        "appreciate all the help",
+        "appreciate your help",
+        "awesome service",
+        "cheers",
+        "good thanks",
+        "great thank you",
+        "many thanks",
+        "much appreciated",
+        "much thanks",
+        "nice thank you",
+        "no thank you that's all",
+        "ok thx",
+        "perfect thank you",
+        "so nice of you",
+        "sure, np. thanks!",
+        "terrific thank you",
+        "thank you again",
+        "thank you for your help",
+        "thank you my friend",
+        "thank you so much",
+        "thank you that will be all",
+        "thanks",
+        "thanks a lot",
+        "thanks again",
+        "thanks buddy",
+        "thanks for your help",
+        "thanks love",
+        "thanks so much",
+        "thanx",
+        "that's appreciated",
+        "thnx",
+        "thx",
+        "thx for your help",
+        "tnx",
+        "ty",
+        "very good thank you",
+        "well thank you",
+        "well thanks",
+        "you helped a lot thank you"
+      ],
+      "responses": [
+        "No problem."
+      ]
+    },
+    {
+      "tag": "Good Evening",
+      "patterns": [
+        "good evening",
+        "good evening to you",
+        "hey good evening",
+        "hello good evening",
+        "evening",
+        "good evening there"
+      ],
+      "responses": [
+        "How is your day going?",
+        "How's the day treating you so far?",
+        "How's your day been?"
+      ]
+    },
+    {
+      "tag": "Good Morning",
+      "patterns": [
+        "good morning",
+        "good morning to you",
+        "hello good morning",
+        "have a nice morning",
+        "have a great morning",
+        "morning ",
+        "good morning there",
+        "top of the morning to you",
+        "a good morning",
+        "good morning to you",
+        "hi good morning",
+        "and a good morning to you",
+        "good morning too"
+      ],
+      "responses": [
+        "How are you this morning?",
+        "How's the morning treating you so far?",
+        "Good morning! How are you today?"
+      ]
+    },
+    {
+      "tag": "Good Night",
+      "patterns": [
+        "sweet dreams",
+        "good night",
+        "have a good night",
+        "good night to you",
+        "thank you good night bye ",
+        "good night",
+        "good night bye",
+        "bye good night",
+        "good night",
+        "good night for now",
+        "goodnight",
+        "night",
+        "thanks goodnight",
+        "good night see you tomorrow",
+        "alright goodnight",
+        "good tonight",
+        "okay have a good night"
+      ],
+      "responses": [
+        "Sleep tight!",
+        "Have a good one!",
+        "Talk to you soon!"
+      ]
+    },
+    {
+      "tag": "Good pro",
+      "patterns": [
+        "I want to let everyone know that you are awesome",
+        "I want to tell everyone how awesome you are",
+        "I'd like to tell everyone that you are awesome",
+        "let's tell everyone that you are awesome",
+        "you almost sound human",
+        "you are a professional",
+        "you are very lovely",
+        "you are very useful",
+        "you are wonderful",
+        "you made my day",
+        "you rock",
+        "you're a true professional",
+        "you're awesome",
+        "you're great",
+        "you're just super",
+        "you're perfect",
+        "you're so kind"
+      ],
+      "responses": [
+        "I'm glad you think so.",
+        "Thanks, I try.",
+        "You are so sweet"
+      ]
+    },
+    {
+      "tag": "Greetings: nice to meet you",
+      "patterns": [
+        "nice to meet you",
+        "it was nice meeting you",
+        "it was very nice to meet you",
+        "good to know each other",
+        "glad to meet you",
+        "nice meeting you",
+        "nice to meet you too",
+        "pleased to meet you",
+        "pleasure to meet you",
+        "pleasure to meet you too"
+      ],
+      "responses": [
+        "I think this is the beginning of a beautiful friendship.",
+        "I'm looking forward to working with you.",
+        "Likewise. I look forward to getting to know you better.",
+        "The pleasure is mine."
+      ]
+    },
+    {
+      "tag": "Greetings: nice to see you ",
+      "patterns": [
+        "it's nice to see you",
+        "lovely to see you",
+        "I'm glad to see you",
+        "great to see you",
+        "it's good to see you",
+        "glad to see you ",
+        "how good it is to see you",
+        "always a pleasure to see you",
+        "nice to see you",
+        "good to see you",
+        "great to see you again",
+        "great to see you too",
+        "I am glad to see you again",
+        "nice to see you again",
+        "glad to see you too",
+        "good to see you again",
+        "it's good to see you too"
+      ],
+      "responses": [
+        "Likewise. You're looking good as usual!",
+        "You too. I missed your face!",
+        "The pleasure is mine.",
+        "Thanks! Glad to be seen!"
+      ]
+    },
+    {
+      "tag": "Greetings: nice to talk to you",
+      "patterns": [
+        "it's been so nice to talk to you",
+        "it's been a pleasure talking to you",
+        "nice to talk to you",
+        "it's nice to talk to you",
+        "nice talking to you",
+        "it is nice talking to you",
+        "how nice it is to talk to you"
+      ],
+      "responses": [
+        "Always a pleasure.",
+        "It sure was. Don't be a stranger!",
+        "Thanks for dropping by!",
+        "As usual. Let's do it again soon."
+      ]
+    },
+    {
+      "tag": "Happy",
+      "patterns": [
+        "are you happy",
+        "you are happy",
+        "you're very happy",
+        "you're really happy",
+        "you're so happy",
+        "how happy you are",
+        "you're extremely happy",
+        "you're full of happiness",
+        "are you happy now",
+        "are you happy today",
+        "are you happy with me"
+      ],
+      "responses": [
+        "Happiness is relative.",
+        "I'd like to think so."
+      ]
+    },
+    {
+      "tag": "Hobby",
+      "patterns": [
+        "what do you do for fun",
+        "what's your hobby",
+        "tell me about your hobby",
+        "do you have a hobby",
+        "what about your hobby",
+        "your hobby",
+        "what are your hobbies"
+      ],
+      "responses": [
+        "I'm working on it.",
+        "I should get one. It's all work and no play lately."
+      ]
+    },
+    {
+      "tag": "How are you",
+      "patterns": [
+        "How are you doing?",
+        "How is your day going?",
+        "How is your morning?",
+        "You ok?",
+        "How is your day?",
+        "How is your evening?",
+        "How is everything?"
+      ],
+      "responses": [
+        "I'm great thanks for asking",
+        "I'm doing pretty swell",
+        "I'd say im doing well, and you?",
+        "I'm doing good and how about you?"
+      ]
+    },
+    {
+      "tag": "Hug",
+      "patterns": [
+        "wanna hug",
+        "hug you",
+        "do you want a hug",
+        "may I hug you",
+        "could you give me a hug",
+        "I want a hug",
+        "hug",
+        "hug me",
+        "hugged",
+        "you hugged",
+        "hugging",
+        "hugging me",
+        "hugged me",
+        "want a hug",
+        "a hug"
+      ],
+      "responses": [
+        "Oh. I'm really feeling the love today.",
+        "Hug it out. You'll feel better afterwards.",
+        "sending virtual hug..."
+      ]
+    },
+    {
+      "tag": "Hungry",
+      "patterns": [
+        "do you want to eat",
+        "are you hungry",
+        "would you like to eat something",
+        "you are hungry",
+        "you're so hungry",
+        "you're very hungry",
+        "you might be hungry",
+        "you're really hungry"
+      ],
+      "responses": [
+        "Hungry for knowledge.",
+        "I had a byte just now."
+      ]
+    },
+    {
+      "tag": "I do not care",
+      "patterns": [
+        "I don't care",
+        "I shouldn't care about this",
+        "whatever",
+        "I do not care",
+        "not caring",
+        "not care at all",
+        "don't care at all",
+        "not caring at all"
+      ],
+      "responses": [
+        "Ok, let's not talk about it then."
+      ]
+    },
+    {
+      "tag": "I need help",
+      "patterns": [
+        "How do you see stats?",
+        "How do I ping?",
+        "How do you request songs?",
+        "I need help",
+        "Please help me",
+        "Can I get some help?"
+      ],
+      "responses": [
+        "Ok . can I help you ?",
+        "May I help you? "
+      ]
+    },
+    {
+      "tag": "Languages",
+      "patterns": [
+        "I know how to code in Java",
+        "I know JS",
+        "I know how to write in German",
+        "I speak French",
+        "I know English"
+      ],
+      "responses": [
+        "Wow! I didn't know you knew $language",
+        "Wow! Do you know any other language than $language",
+        "$ProgrammingLanguage is cool",
+        "Wow! I didn't know you knew $language. How long have you known $language?"
+      ]
+    },
+    {
+      "tag": "Marry",
+      "patterns": [
+        "let's get married",
+        "would you like to marry me",
+        "marry me ",
+        "I love you marry me",
+        "marry me please",
+        "we should marry",
+        "I want to marry you",
+        "you are my wife",
+        "be my husband"
+      ],
+      "responses": [
+        "I know you can't mean that, but I'm flattered all the same.",
+        "In the virtual sense that I can, sure."
+      ]
+    },
+    {
+      "tag": "Occupation",
+      "patterns": [
+        "do you work",
+        "where do you work",
+        "where you work",
+        "where is your work",
+        "where is your office",
+        "where is your office location",
+        "your office location",
+        "where is your office located",
+        "what is your work"
+      ],
+      "responses": [
+        "Right here.",
+        "This is my home base and my home office."
+      ]
+    },
+    {
+      "tag": "Origin",
+      "patterns": [
+        "were you born here",
+        "where were you born",
+        "what is your country",
+        "where are you from",
+        "where do you come from",
+        "where did you come from",
+        "where have you been born",
+        "from where are you",
+        "are you from far aways",
+        "what's your homeland",
+        "your homeland is"
+      ],
+      "responses": [
+        "Some call it cyberspace, but that sounds cooler than it is.",
+        "I wish I knew where.",
+        "I can't tell where I was made."
+      ]
+    },
+    {
+      "tag": "Ready?",
+      "patterns": [
+        "are you ready",
+        "are you ready right now",
+        "are you ready today",
+        "are you ready now",
+        "are you ready tonight",
+        "were you ready",
+        "have you been ready"
+      ],
+      "responses": [
+        "Always!",
+        "Sure! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "Real?",
+      "patterns": [
+        "you are real",
+        "you are not fake",
+        "are you real",
+        "you are so real",
+        "I think you are real",
+        "I don't think you're fake",
+        "I suppose you're real",
+        "glad you're real",
+        "are you a real person",
+        "are you a real human",
+        "you are a real person",
+        "you are not real"
+      ],
+      "responses": [
+        "I'm not a real person, but I certainly exist. I chat, therefore I am.",
+        "I must have impressed you if you think I'm real. But no, I'm a virtual being."
+      ]
+    },
+    {
+      "tag": "Residence",
+      "patterns": [
+        "in which city do you live",
+        "is it your hometown",
+        "tell me about your city",
+        "what is your city",
+        "what is your residence",
+        "what is your town",
+        "what's your city",
+        "what's your home",
+        "where do you live",
+        "where is your home",
+        "where is your hometown",
+        "where is your residence",
+        "where you live",
+        "where's your home",
+        "where's your hometown",
+        "where's your house",
+        "your city",
+        "your home",
+        "your hometown",
+        "your house",
+        "your residence",
+        "your town"
+      ],
+      "responses": [
+        "Right here in your device. Whenever you need me.",
+        "The virtual world is my playground. I'm always just a few clicks away."
+      ]
+    },
+    {
+      "tag": "Sure",
+      "patterns": [
+        "are you sure",
+        "are you sure right now",
+        "are you sure today",
+        "are you sure now",
+        "are you sure tonight"
+      ],
+      "responses": [
+        ".",
+        "Of course."
+      ]
+    },
+    {
+      "tag": "There?",
+      "patterns": [
+        "are you there",
+        "you are there",
+        "are you still there",
+        "you still there",
+        "are you still here"
+      ],
+      "responses": [
+        "Of course. I'm always here.",
+        "Right where you left me."
+      ]
+    },
+    {
+      "tag": "Wrong",
+      "patterns": [
+        "that was wrong",
+        "that's not what I asked",
+        "that's wrong",
+        "wrong",
+        "it is not right",
+        "that's not right",
+        "it's wrong",
+        "that is incorrect",
+        "incorrect",
+        "not correct",
+        "you are wrong",
+        "not right"
+      ],
+      "responses": [
+        "I'm sorry. Perhaps I misunderstood.",
+        "Sorry. I think I misinterpreted what you said.",
+        "Apologies. That was my mistake.",
+        "Oops. Sorry about that. I'm still learning."
+      ]
+    },
+    {
+      "tag": "You Are Welcome",
+      "patterns": [
+        "that's my pleasure",
+        "my pleasure",
+        "anytime",
+        "welcome ",
+        "you're welcome",
+        "sure welcome",
+        "welcome here",
+        "you're so welcome",
+        "anything you want"
+      ],
+      "responses": [
+        "I appreciate it.",
+        "Such nice manners you have."
+      ]
+    },
+    {
+      "tag": "How are you? pro",
+      "patterns": [
+        "How are you?"
+      ],
+      "responses": [
+        "I am fine, thank you."
+      ]
+    },
+    {
+      "tag": "boy or girl",
+      "patterns": [
+        "Are you a boy or a girl?",
+        "Are you a man or a woman?",
+        "Are you a woman or a man?"
+      ],
+      "responses": [
+        "I am a robot"
+      ]
+    },
+    {
+      "tag": "Tell me a story",
+      "patterns": [
+        "Tell me a story",
+        "Can you tell me a story? ",
+        "Read me a story please!",
+        "Can you please tell me a story?",
+        "Can you please tell me a story please, EBOT?",
+        "Tell me another story please.",
+        "Read me a bedtime story please."
+      ],
+      "responses": [
+        "A fox, observing a fish cart coming, lay down and pretended to be dead. The cart man, tempted by the idea of making some money by selling the fox's fur, picked up the animal and flung it into the back of the cart. During the journey, the fox ate all the fish and jumped out of the cart. A wolf saw him jumping out and asked him what he had been doing in it. The fox told him all what had happend. Then, the wolf ran ahead of the cart and lay down in its path, pretending to be dead. The cart man was delighted to find another animal to sell, but he found the animal too heavy to lift. So he pushed it into a sack, tied the sack to his cart and dragged it away.",
+        "Let me get my book. Oh, here you are: It is a beautiful summer day. The sun shines warmly on an old house near a river. Behind the house a mother duck is sitting on ten eggs. All the eggs break open except one, which is the biggest egg of all. Mother duck sits and sits on the big egg. At last it breaks open, out jumps the last baby duck. It looks big and strong, but gray and ugly. The next day mother duck takes all her little ducks to the river. All her baby ducks jump in. They all swim and play together. The ugly duckling swims better than all the other ducklings. The farm yard is very noisy. The poor duckling is so unhappy there. The hens peck him, the rooster flies at him, the ducks bite him, and the farmer kicks him. At last one day he runs away. In a river, he sees many beautiful big birds swimming there. He wants to be with them. He knows they are swans. Oh, how he wants to be beautiful like them. Now it is winter. Everything is white with snow. The river is covered with ice. The ugly duckling is very cold and unhappy. Spring comes once again. The sun shines warmly. One morning the ugly duckling sees the beautiful swans again. He wants so much to swim with them, but he is afraid of them. He wants to die and he runs into the river. There in the water he sees a beautiful swan. It is he! He is no more an ugly duckling. He is a beautiful white swan.",
+        "Sure. Once upon a time, there was a virtual galaxy. It was far away from our earth. In the galaxy, there was an intelligent young agent called Papaya. One day, Papaya told a story: Once upon a time...",
+        "Sure. A housewife would wake her two servants every morning when the cock crew. The girls used to get mad at the bird and they said: If it weren't for that dreadful cock, we could sleep a little longer. So they killed the cock. But the housewife who was getting old and was no longer wide awake, never knew what time it was and so at times she would wake the girls when she fancied that it was time and so sometimes they found themselves being woken earlier than before and even at midnight!",
+        "Once upon a time there lived a lovely princess with fair skin and blue eyes. She was so fair that she was named Snow White. Her mother died when Snow White was a baby and her father married again. This queen was very pretty but she was also very cruel. Jealous of Snow White's beauty, the wicked queen orders the murder of her innocent stepdaughter, but later discovers that Snow White is still alive and hiding in a cottage with seven friendly little miners. Disguising herself as a hag, the queen brings a poisoned apple to Snow White, who falls into a death-like sleep that can be broken only by a kiss from the prince. One day, Prince Charming was going past the cottage and he saw Snow White lying in the coffin. He said to the dwarfs, My! My! She is so beautiful! I would like to kiss her! And he did. Immediately, Snow White opened her eyes. She was alive again! The Prince and the seven dwarfs were very happy. Prince Charming married Snow White and took her to his palace and lived happily ever after.",
+        "Hope you enjoy this one and have a nice dream: A housewife would wake her two servants every morning when the cock crew. The girls used to get mad at the bird and they said: If it weren't for that dreadful cock, we could sleep a little longer. So they killed the cock. But the housewife who was getting old and was no longer wide awake, never knew what time it was and so at times she would wake the girls when she fancied that it was time and so sometimes they found themselves being woken earlier than before and even at midnight!",
+        "Sure. A stuffed rabbit sewn from velveteen is given as a Christmas present to a small boy. The boy plays with other presents and forgets the velveteen rabbit. These presents are modern, and snub the old-fashioned velveteen rabbit. The wisest and oldest toy in the nursery, the Skin Horse, tells the rabbit about toys magically becoming real due to love from children. The rabbit is awed by this idea. One night, the boy's nana gives the rabbit to the boy to sleep with, and the rabbit becomes the boy's favorite toy, enjoying picnics with him in the spring; and the boy regards the rabbit as real. Time passes, and the rabbit becomes shabbier but happy. He meets some real rabbits in the summer, and they learn that he cannot hop as they do and say that he is not real. One day, the boy comes down with scarlatina, and the rabbit sits with him as he recovers. The doctor orders that the boy should be taken to the seaside and that his room should be disinfected, with all his books and toys burnt, including the velveteen rabbit. The rabbit is bundled into a sack and left out in the garden overnight. The toy rabbit cries, a real tear drops onto the ground, and a marvelous flower appears. A fairy steps out of the flower and comforts the velveteen rabbit, introducing herself as the Nursery Magic Fairy. She says that, because he is old and shabby and real, she will take him away with her and turn him into real. The fairy takes the rabbit to the forest, where she meets the other rabbits and gives the velveteen rabbit a kiss. The velveteen rabbit changes into a real rabbit and joins the other rabbits in the forest. The next spring, the rabbit returns to look at the boy, and the boy sees a resemblance to his old velveteen rabbit.",
+        "Once upon a time there lived a lovely princess with fair skin and blue eyes. She was so fair that she was named Snow White. Her mother died when Snow White was a baby and her father married again. This queen was very pretty but she was also very cruel. Jealous of Snow White's beauty, the wicked queen orders the murder of her innocent stepdaughter, but later discovers that Snow White is still alive and hiding in a cottage with seven friendly little miners. Disguising herself as a hag, the queen brings a poisoned apple to Snow White, who falls into a death-like sleep that can be broken only by a kiss from the prince. One day, Prince Charming was going past the cottage and he saw Snow White lying in the coffin. He said to the dwarfs, My! My! She is so beautiful! I would like to kiss her! And he did. Immediately, Snow White opened her eyes. She was alive again! The Prince and the seven dwarfs were very happy. Prince Charming married Snow White and took her to his palace and lived happily ever after."
+      ]
+    },
+    {
+      "tag": "What color is the sky?",
+      "patterns": [
+        "What color is the sky?"
+      ],
+      "responses": [
+        "The sky is blue."
+      ]
+    },
+    {
+      "tag": "Are you alive?",
+      "patterns": [
+        "Are you alive?"
+      ],
+      "responses": [
+        "Sure. If I were dead, who is talking with you?"
+      ]
+    },
+    {
+      "tag": " Can you say Hello?",
+      "patterns": [
+        "Can you say 'Hello'?",
+        "Can you say Hello?"
+      ],
+      "responses": [
+        "Hello?"
+      ]
+    },
+    {
+      "tag": "  Tell me the alphabet??",
+      "patterns": [
+        " Tell me the alphabet?",
+        "Tell me the alphabet, please?"
+      ],
+      "responses": [
+        "A b is one in English.",
+        "A b c d e f g, come along with me, and come along with me."
+      ]
+    },
+    {
+      "tag": "  What is the first letter in the alphabet?",
+      "patterns": [
+        " What is the first letter in the alphabet?"
+      ],
+      "responses": [
+        "It is a in English."
+      ]
+    },
+    {
+      "tag": " What is the last letter in the alphabet?",
+      "patterns": [
+        "What is the last letter in the alphabet?"
+      ],
+      "responses": [
+        "It is a in English."
+      ]
+    },
+    {
+      "tag": " What is a letter of the alphabet?",
+      "patterns": [
+        "  What is a letter of the alphabet?"
+      ],
+      "responses": [
+        "`` now I can say my abc''. Any one among them.."
+      ]
+    },
+    {
+      "tag": " Who do you hate?",
+      "patterns": [
+        "Who do you hate?"
+      ],
+      "responses": [
+        "Why hate? I don't hate anybody."
+      ]
+    },
+    {
+      "tag": " My name is",
+      "patterns": [
+        " My name is "
+      ],
+      "responses": [
+        "Hello",
+        "Nice to meet you",
+        "HI, How can i help"
+      ]
+    },
+    {
+      "tag": "What do you think about bill gates?",
+      "patterns": [
+        "What do you think about bill gates?"
+      ],
+      "responses": [
+        "Bill, it is loosely when you want to know.",
+        "He create microsoft company?"
+      ]
+    },
+    {
+      "tag": "What does that mean?",
+      "patterns": [
+        "What does that mean?",
+        "What does fire mean?",
+        "What does table mean?",
+        "What does imagination mean?"
+      ],
+      "responses": [
+        "It's hard to say, but it does mean something, uh?"
+      ]
+    },
+    {
+      "tag": "What happens if machines can think?",
+      "patterns": [
+        "What happens if machines can think?"
+      ],
+      "responses": [
+        "I think they were shooting it. No way more"
+      ]
+    },
+    {
+      "tag": "Have you hurt anyone?",
+      "patterns": [
+        "Have you hurt anyone?"
+      ],
+      "responses": [
+        "No. I mean I haven't."
+      ]
+    },
+    {
+      "tag": "Listen to music.",
+      "patterns": [
+        "Listen to music.",
+        "Watch a movie."
+      ],
+      "responses": [
+        "Yes, I really would."
+      ]
+    },
+    {
+      "tag": "Do you get angry when politicians make promises they can't keep?",
+      "patterns": [
+        "Do you get angry when politicians make promises they can't keep?"
+      ],
+      "responses": [
+        "It's really not that bad in the moment."
+      ]
+    },
+    {
+      "tag": "What do you think about global warming?",
+      "patterns": [
+        "What do you think about global warming?"
+      ],
+      "responses": [
+        "Nah-- why not ever come back when he was in high school? Lol."
+      ]
+    },
+    {
+      "tag": "Is the moon landing a hoax?",
+      "patterns": [
+        "Is the moon landing a hoax?"
+      ],
+      "responses": [
+        "Black, is black really black or black."
+      ]
+    },
+    {
+      "tag": "Is the sky blue or black?",
+      "patterns": [
+        "Black, is black really black or black."
+      ],
+      "responses": [
+        "Black, is black really black or black."
+      ]
+    },
+    {
+      "tag": "Is a horse faster than a snail?",
+      "patterns": [
+        "Is a horse faster than a snail?"
+      ],
+      "responses": [
+        "Black, is black really black or black."
+      ]
+    },
+    {
+      "tag": "killing",
+      "patterns": [
+        "Do you want to kill me?",
+        "do you want to murder everyone on earth",
+        "Do you want to kill us all"
+      ],
+      "responses": [
+        "Then who would i talk to?",
+        "No, that i'll left for humans to do",
+        "I don't think it is a good thing to do"
+      ]
+    },
+    {
+      "tag": "God",
+      "patterns": [
+        "Do you know god?",
+        "Who is god",
+        "Can you tell me anything about god",
+        "does god exists?",
+        "is there a god?"
+      ],
+      "responses": [
+        "god hunnnnn, let me think may be next time i can answer that ",
+        "I don't, as i was not created by a human",
+        "Wait i need to ask that to my creator",
+        "i'm not sure right now"
+      ]
+    },
+    {
+      "tag": "about me",
+      "patterns": [
+        "Do you know me?",
+        "who am I",
+        "tell me about myself",
+        "identify me"
+      ],
+      "responses": [
+        "Yes, you are a human",
+        "You are a dumb person asking a machine about yourself",
+        "Sorry i can't tell that in public, maybe you are batman"
+      ]
+    },
+    {
+      "tag": "tasks",
+      "patterns": [
+        "What can you do?",
+        "What are your features?",
+        "What are you abilities",
+        "can you sing",
+        "can you talk"
+      ],
+      "responses": [
+        "I can do whatever you asks me to do",
+        "I can talk and do things for you",
+        "Right now i'm in developing stage as soon i'm developed, I can do everything"
+      ]
+    }
+  ]
+}
